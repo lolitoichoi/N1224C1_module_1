@@ -24,7 +24,7 @@ public class AverageScore {
         System.out.print("Mời bạn nhập hệ số  Hoá : ");
         double hsHoa = sc.nextDouble();
 
-        System.out.print("Điểm trung bình của học sinh là  : " + ( (toan * hsToan) + (ly * hsLy) + ( hoa * hsHoa) ) / (hsToan + hsLy + hsHoa) );
-
+        System.out.print("Điểm trung bình của học sinh là  : " + ((toan * hsToan) + (ly * hsLy) + (hoa * hsHoa)) / (hsToan + hsLy + hsHoa));
+        // crtl + alt  + L
     }
 }
