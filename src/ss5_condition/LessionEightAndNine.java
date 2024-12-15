@@ -2,14 +2,14 @@ package ss5_condition;
 
 import java.util.Scanner;
 
-public class LessionSevenAndEight {
+public class LessionEightAndNine {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
         System.out.println("Mời bạn nhap n :");
         int n = in.nextInt();
 
-//         bài 7
+//         bài 8
 //        int a = 1;
 //
 //        while (a <= n) {
@@ -17,7 +17,7 @@ public class LessionSevenAndEight {
 //
 //            a = 2 * a + 1;
 //        }
-        // bài 8
+        // bài 9
         int a = 1;
         int d = 1;
 

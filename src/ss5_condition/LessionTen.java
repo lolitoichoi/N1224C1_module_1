@@ -2,7 +2,7 @@ package ss5_condition;
 
 import java.util.Scanner;
 
-public class LessionNineAndTen {
+public class LessionTen {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
