@@ -28,9 +28,25 @@ public class Lession6 {
         System.out.println("Moi ban nhap dia chi: ");
         diaChi = in.nextLine();
 
-        System.out.println("Moi ban nhap gioi tinh (true : nam || false : Nu ) ");
-        gioiTinh = in.nextBoolean();
+//        System.out.println("Moi ban nhap gioi tinh (true : nam || false : Nu ) ");
+//        gioiTinh = in.nextBoolean();
+        int choose;
+        do {
+            System.out.println("===Menu====");
+            System.out.println("1. Nam");
+            System.out.println("2. Nu");
 
+            System.out.println("===Moi ban nhap tuoi====");
+            choose = in.nextInt();
+
+            if (choose != 1 && choose != 2) {
+                System.out.println("lua chon khong hop le, xin lua chon lai!");
+            }
+        }  while (choose != 1 && choose != 2);
+
+//        System.out.println("Gioi tinh: " + (gioiTinh ? "Nam" : "Nu"));
+
+        boolean gioiTinh = choose == 1;
         System.out.println("Moi ban nhap muc luong: ");
         mucLuong = in.nextDouble();
     }
